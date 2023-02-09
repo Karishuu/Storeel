@@ -484,7 +484,8 @@ color: #1E7A00;
 .container-tutor {
    position: relative;
    z-index: 2;
-   margin-top: 150px;
+   right: 17px;
+   margin-top: 190px;
 }
 .content-tutor{
       color: #fff;
