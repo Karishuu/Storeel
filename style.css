@@ -115,8 +115,7 @@ body {
    justify-content:center ;
 }
 .content-box img {
-   width: 1500px;
-   height: 1750px;
+width: 800px;
 }
 .box {
    display: flex;
@@ -273,12 +272,6 @@ body {
    position: relative;
    flex-wrap: wrap;
 }
-.content-level {
-   display: flex;
-   justify-content: center;
-   position: relative;
-   flex-wrap: wrap;
-}
 .content-level ul{
    color: #fff;
    overflow: hidden;
@@ -406,18 +399,19 @@ body {
    position: relative;
    justify-content: center;
    overflow: hidden;
- }.content-harga ul{
-      color: #fff;
-      text-align: center;
-      position: relative;
-      justify-content: center;
-      margin-left: 30px;
-      margin-top: 20px;
-      overflow: hidden;
-      border-radius: 30px;
-      height: 45px;
-      width: 180px;
-      background-color: #FEC502;
+ }
+.content-harga ul{
+   color: #fff;
+   text-align: center;
+   position: relative;
+   justify-content: center;
+   margin-left: 30px;
+   margin-top: 20px;
+   overflow: hidden;
+   border-radius: 30px;
+   height: 45px;
+   width: 180px;
+   background-color: #FEC502;
 }
 .content-harga h4 {
    margin-top: 8px;
@@ -780,9 +774,12 @@ body {
       font-size: 15px;
    }
 .container-faq {
-      display: flex;
-      overflow: hidden;
-   }
+   display: flex;
+   overflow: hidden;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-right: 30px;
+}
 .container-faq img {
       position: absolute;
       width: 600px;
