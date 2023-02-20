@@ -127,6 +127,7 @@ body {
    overflow: hidden;
 }
 .box {
+   position: absolute;
    display: flex;
    color: #1E7A00;
    font-family: 'Poppins';
@@ -142,6 +143,7 @@ body {
    margin-top: 500px;
    top: auto;
    bottom: 20px;
+   font-family: 'Poppins';
    z-index: 1;
 }
 .card h3 {
@@ -167,6 +169,7 @@ body {
    background: #FFFFFF;
    box-shadow: 0px 10px 15px #387823;
    border-radius: 34px;
+   font-family: 'Poppins';
    z-index: 1;
 }
 .box-card h3 {
@@ -182,14 +185,21 @@ body {
    font-size: 14px;
 }
 .box-text {
-   display: block;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.box-container {
+   display: flex;
    justify-content: center;
    z-index: 1;
+   position: relative;
+   top: 1000px;
+   width: 3500px;
+   height: 400px;
 }
 #box-detail {
    display: flex;
-   margin-top: 1050px;
-   margin-left: -1250px;
    overflow: hidden;
    position: absolute;
    z-index: 1;
@@ -225,35 +235,26 @@ color: #1E7A00;
    box-shadow: 0px 5px 10px #387823;
    border-radius: 34px;
 }
-.gambar {
-   justify-content: center;
-   display: flex;
-   flex-wrap: wrap;
-}
 .img {
-   position: static;
-   top: 20px;
-      text-align: end;
-      z-index: 2;
-      margin-left: 20px;
+   position: absolute;
+   width: 150px;
+   right: -11px;
+   top: 240px;
+   z-index: 2;
+   height: 150px;
 }
 .img img{
-   position: absolute;
-   top: 2260px;
-   left: 1190px;
-   margin-right: 40px;
    height: 150px;
    width: 150px;
    overflow: hidden;
 }
 .bintang-img {
-   text-align: left;
-   z-index: 2;
+   position: static;
 }
 .bintang-img img {
    position: absolute;
-   top: 2070px;
-   left: 95px;
+   left: 1px;
+   top: 50px;
    height: 70px;
    width: 70px;
 }
@@ -300,6 +301,7 @@ color: #1E7A00;
    overflow: hidden;
    border-radius: 30px;
    height: 45px;
+   margin-left: 35px;
    width: 180px;
    background-color: #7EC865;
 }
@@ -430,6 +432,7 @@ color: #1E7A00;
       overflow: hidden;
       border-radius: 30px;
       height: 45px;
+      margin-left: 30px;
       width: 180px;
       background-color: #FEC502;
 }
@@ -561,7 +564,7 @@ color: #1E7A00;
 }
 .right-mid {
    position: absolute;
-   right: 12px;
+   right: 19px;
    bottom: 46px;
 }
 .tutor-content{
